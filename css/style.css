@@ -71,7 +71,7 @@ p {
 
 .about-section {
   height: 100%;
-  min-height: 900px;
+  min-height: 1200px;
   padding-top: 50px;
   text-align: center;
   background: #F3F8F3;
@@ -192,3 +192,46 @@ p {
   top: 50%;
   width: 100%;
 }
+
+
+
+
+
+.bargraph {
+    list-style: none;
+    padding-top: 0px;
+    width:440px;
+    }
+ul.bargraph li {
+    height: 25px;
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+    }
+ul.bargraph li.green {
+background: #4CAF50;
+}
+li.rookie {
+width: 26%;
+}
+li.intermediate{
+  width: 48%;
+}
+li.prettygood{
+  width: 72%;
+}
+li.awesome{
+  width: 100%;
+}
+
+
+ 
+ul.bargraph li.xaxis {
+background: url(/img/xaxis.png);
+height: 90px;
+}    
