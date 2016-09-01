@@ -1,0 +1,52 @@
+@import 'http://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+body {
+  font-size: 1.8em;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a:link {
+    color: #35a;
+  }
+a:visited {
+    color: #86a;
+  }
+a:hover {
+    color: #f00;
+  }
+a:active {
+    color: #35d;
+  }
+
+
+.single { // for single column articles on blogs, magazines, etc
+  width: 80%;
+  max-width: 770px;
+  margin: 0 auto;
+  padding: 1em 2em 2em;
+}
+
+html {
+  background: #2c3e50;
+  color: #95a5a6;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #2ecc71;
+}
+
+
+.slats {
+  padding:0 0 0 90px;
+  font-size: .8em;
+  line-height: 1.4;
+  li {
+    list-style-type: none;
+    position: relative;
+    clear: left;
+    margin: 2em auto;
+    min-height: 90px;
+  }
+
